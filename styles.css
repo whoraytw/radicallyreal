@@ -178,6 +178,14 @@ h1 {
   line-height: 1.5;
 }
 
+.about-photo {
+  display: block;
+  width: 100%;
+  max-width: 340px;
+  height: auto;
+  margin: 24px auto 28px;
+}
+
 @media (max-width: 480px) {
   .site-shell { width: min(100% - 24px, 680px); padding-top: 24px; }
   .brand-logo { width: min(74vw, 300px); }
@@ -189,11 +197,4 @@ h1 {
     height: auto;
     margin: 18px auto 22px;
   }
-}
-.about-photo {
-  display: block;
-  width: 100%;
-  max-width: 340px;
-  height: auto;
-  margin: 24px auto 28px;
 }
