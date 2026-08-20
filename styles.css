@@ -183,3 +183,10 @@ h1 {
   .brand-logo { width: min(74vw, 300px); }
   .link-card { padding: 17px 17px 16px; }
 }
+.about-photo {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin: 24px auto 28px;
+}
